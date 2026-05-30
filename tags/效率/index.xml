@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>效率 on AI 工具导航</title>
+    <link>https://liangzai0097.github.io/ai-tools-nav/tags/%E6%95%88%E7%8E%87/</link>
+    <description>Recent content in 效率 on AI 工具导航</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://liangzai0097.github.io/ai-tools-nav/tags/%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 做 PPT：自动生成演示文稿的 3 款神器测评</title>
+      <link>https://liangzai0097.github.io/ai-tools-nav/posts/ai-ppt-tools/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://liangzai0097.github.io/ai-tools-nav/posts/ai-ppt-tools/</guid>
+      <description>做 PPT 太耗时？AI 演示文稿工具可以在几分钟内生成专业级幻灯片。本文测评 Gamma、Beautiful.ai 和 Tome 三款主流 AI PPT 工具，看看哪款最适合你。</description>
+    </item>
+    <item>
+      <title>ChatGPT 替代品：5 个免费 AI 对话工具推荐</title>
+      <link>https://liangzai0097.github.io/ai-tools-nav/posts/chatgpt-alternatives-free/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://liangzai0097.github.io/ai-tools-nav/posts/chatgpt-alternatives-free/</guid>
+      <description>ChatGPT 不是唯一选择！本文精选 5 款完全免费或提供慷慨免费额度的 AI 对话工具，涵盖国内、国外优质替代方案，帮你找到最合适的日常 AI 助手。</description>
+    </item>
+    <item>
+      <title>免费 AI 工具合集：不花钱也能用 AI 的终极指南</title>
+      <link>https://liangzai0097.github.io/ai-tools-nav/posts/free-ai-tools-collection/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://liangzai0097.github.io/ai-tools-nav/posts/free-ai-tools-collection/</guid>
+      <description>AI 不一定是付费的！本文整理了一份完全免费或提供慷慨免费额度的 AI 工具清单，涵盖对话、绘画、编程、办公等场景，让你不花一分钱也能享受 AI 带来的效率提升。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>绘画 on AI 工具导航</title>
+    <link>https://liangzai0097.github.io/ai-tools-nav/tags/%E7%BB%98%E7%94%BB/</link>
+    <description>Recent content in 绘画 on AI 工具导航</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://liangzai0097.github.io/ai-tools-nav/tags/%E7%BB%98%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 绘画入门：从 Midjourney 到 Stable Diffusion 全面指南</title>
+      <link>https://liangzai0097.github.io/ai-tools-nav/posts/ai-painting-guide-midjourney-sd/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://liangzai0097.github.io/ai-tools-nav/posts/ai-painting-guide-midjourney-sd/</guid>
+      <description>AI 绘画工具在 2026 年已非常成熟。本文从新手视角出发，对比 Midjourney、Stable Diffusion、DALL-E 等主流 AI 绘画工具，帮助你快速上手 AI 绘图。</description>
+    </item>
+  </channel>
+</rss>

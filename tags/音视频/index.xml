@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>音视频 on AI 工具导航</title>
+    <link>https://liangzai0097.github.io/ai-tools-nav/tags/%E9%9F%B3%E8%A7%86%E9%A2%91/</link>
+    <description>Recent content in 音视频 on AI 工具导航</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://liangzai0097.github.io/ai-tools-nav/tags/%E9%9F%B3%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 生成视频工具大盘点：2026 年文生视频怎么选</title>
+      <link>https://liangzai0097.github.io/ai-tools-nav/posts/ai-video-generation-tools/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://liangzai0097.github.io/ai-tools-nav/posts/ai-video-generation-tools/</guid>
+      <description>AI 视频生成技术在 2026 年迎来质的飞跃。从 Runway 到 Sora，从可灵到 Pika，本文盘点主流 AI 视频生成工具，帮你了解哪个最适合你的创作需求。</description>
+    </item>
+  </channel>
+</rss>

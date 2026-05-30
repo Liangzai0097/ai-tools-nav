@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>编程 on AI 工具导航</title>
+    <link>https://liangzai0097.github.io/ai-tools-nav/tags/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on AI 工具导航</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://liangzai0097.github.io/ai-tools-nav/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>程序员必备：5 个 AI 编程助手深度对比</title>
+      <link>https://liangzai0097.github.io/ai-tools-nav/posts/ai-coding-assistants-comparison/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://liangzai0097.github.io/ai-tools-nav/posts/ai-coding-assistants-comparison/</guid>
+      <description>AI 编程助手已成为程序员的标配工具。本文深度对比 GitHub Copilot、Cursor、Windsurf、Amazon Q Developer 和 Tabnine，从代码补全、Bug 修复到架构设计，帮你选对编程搭档。</description>
+    </item>
+  </channel>
+</rss>
