@@ -1,0 +1,60 @@
+{{- define "main" }}
+
+<div class="ait-home">
+
+  <!-- Hero -->
+  <header class="ait-hero">
+    <h1 class="ait-hero__title">AI 工具导航</h1>
+    <p class="ait-hero__subtitle">精选 50+ 款 AI 工具，覆盖写作、绘画、编程、效率、音视频、学习六大领域。不吹不黑，帮你找到真正好用的。</p>
+  </header>
+
+  <!-- 分类 -->
+  <section class="ait-section">
+    <h2 class="ait-section__label">按分类浏览</h2>
+    <div class="ait-cat-list">
+      {{- $tags := slice "写作" "绘画" "编程" "效率" "音视频" "学习" }}
+      {{- $descs := dict
+        "写作" "AI 写作助手 · 文案生成 · 论文润色"
+        "绘画" "AI 绘画 · 图像生成 · 设计辅助"
+        "编程" "代码助手 · 代码生成 · 调试工具"
+        "效率" "AI 办公 · 自动化 · 效率提升"
+        "音视频" "视频生成 · 音频处理 · 配音"
+        "学习" "学习助手 · 知识管理 · 翻译"
+      }}
+      {{- range $i, $tag := $tags }}
+        {{- with site.GetPage (printf "/tags/%s" $tag) }}
+        <a href="{{ .Permalink }}" class="ait-cat-item">
+          <span class="ait-cat-item__num">{{ printf "%02d" (add $i 1) }}</span>
+          <span class="ait-cat-item__name">{{ $tag }}</span>
+          <span class="ait-cat-item__desc">{{ index $descs $tag }}</span>
+          <span class="ait-cat-item__count">{{ len .Pages }} 篇</span>
+        </a>
+        {{- end }}
+      {{- end }}
+    </div>
+  </section>
+
+  <!-- 广告位 -->
+  <div class="ait-ad">广告位 — Google AdSense</div>
+
+  <!-- 最新文章 -->
+  <section class="ait-section">
+    <h2 class="ait-section__label">最新推荐</h2>
+    <div class="ait-post-list">
+      {{- $pages := where site.RegularPages "Type" "posts" }}
+      {{- $sortedPages := $pages.ByDate.Reverse }}
+      {{- range first 6 $sortedPages }}
+      <a href="{{ .Permalink }}" class="ait-post-item">
+        <span class="ait-post-item__date">{{ .Date.Format "2006-01-02" }}</span>
+        <div class="ait-post-item__body">
+          <h3 class="ait-post-item__title">{{ .Title }}</h3>
+          <p class="ait-post-item__summary">{{ .Summary | plainify | truncate 140 }}</p>
+        </div>
+      </a>
+      {{- end }}
+    </div>
+  </section>
+
+</div>
+
+{{- end }}

@@ -1,0 +1,22 @@
+# Hugo build output
+public/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Hugo dependency cache
+/resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# WorkBuddy local project data
+.workbuddy/
