@@ -1,0 +1,38 @@
+{{- define "main" }}
+
+<div class="ait-term">
+
+  <header class="ait-term__header">
+    <a href="/tags/" class="ait-term__back">&larr; 所有分类</a>
+    <h1 class="ait-term__title">{{ .Title }}</h1>
+    <p class="ait-term__meta">共 {{ len .Pages }} 篇文章</p>
+  </header>
+
+  {{- $paginator := .Paginate .Pages }}
+  <div class="ait-term__posts">
+    {{- range $index, $page := $paginator.Pages }}
+    <a href="{{ $page.Permalink }}" class="ait-term__post">
+      <span class="ait-term__post-num">{{ printf "%02d" (add $index 1) }}</span>
+      <div class="ait-term__post-body">
+        <h3 class="ait-term__post-title">{{ $page.Title }}</h3>
+        <time class="ait-term__post-date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
+      </div>
+    </a>
+    {{- end }}
+  </div>
+
+  {{- if gt $paginator.TotalPages 1 }}
+  <nav class="ait-pagination">
+    {{- if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">&larr; 上一页</a>
+    {{- end }}
+    <span class="ait-pagination__info">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+    {{- if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">下一页 &rarr;</a>
+    {{- end }}
+  </nav>
+  {{- end }}
+
+</div>
+
+{{- end }}
