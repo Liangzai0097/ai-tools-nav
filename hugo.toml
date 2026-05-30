@@ -1,7 +1,4 @@
-# 部署前请修改为实际域名：
-#   GitHub Pages: https://<username>.github.io/<repo>/
-#   自定义域名:   https://yourdomain.com/
-baseURL = '/'
+baseURL = 'https://liangzai0097.github.io/ai-tools-nav/'
 locale = 'zh-cn'
 title = 'AI 工具导航'
 theme = 'PaperMod'
