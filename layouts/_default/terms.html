@@ -1,0 +1,21 @@
+{{- define "main" }}
+
+<div class="ait-terms">
+
+  <header class="ait-terms__header">
+    <h1 class="ait-terms__title">所有分类</h1>
+  </header>
+
+  <div class="ait-terms__list">
+    {{- range .Data.Terms.Alphabetical }}
+    <a href="{{ .Page.Permalink }}" class="ait-terms__item">
+      <span class="ait-terms__item-name">{{ .Page.Title }}</span>
+      <span class="ait-terms__item-dots"></span>
+      <span class="ait-terms__item-count">{{ len .Pages }} 篇</span>
+    </a>
+    {{- end }}
+  </div>
+
+</div>
+
+{{- end }}
